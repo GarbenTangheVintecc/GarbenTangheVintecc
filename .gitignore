@@ -1,0 +1,11 @@
+# Ignore all
+/*
+
+# Except folders
+!/tools
+/tools/*
+!/tools/*.sh
+
+# Exept files
+!/.gitignore
+!/README.md
