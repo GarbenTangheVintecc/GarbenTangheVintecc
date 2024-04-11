@@ -33,5 +33,7 @@ echo -e "\n"
 
 # Check for system updates
 echo -e "🚀 Checking for system updates ..."
-sudo do-release-upgrade -c
+sudo do-release-upgrade -c || true
 echo -e "\n"
+
+exit 0
